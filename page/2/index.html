@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="关于, Hexo">
+    <meta name="keywords" content="Hexo">
     <meta name="description" content="Hexo">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>关于 | Hexo</title>
+    <title>Hexo</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -43,8 +43,6 @@
 
 
 
-
-    
 
 
 
@@ -328,14 +326,8 @@
 
 </header>
 
-    <style type="text/css">
-    /* don't remove. */
-    .about-cover {
-        height: 75vh;
-    }
-</style>
-
-<div class="bg-cover pd-header about-cover">
+    
+    <div class="bg-cover pd-header about-cover">
     <div class="container">
     <div class="row">
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
@@ -390,395 +382,411 @@
     </div>
 </div>
 
+
+
+<style>
+    #index-video { z-index: -1; position: absolute; top: 0; left: 0; height: 100vh; width: 100%; object-fit: cover;}
+    @media only screen and (max-width: 760px) { #index-video { display: none;}}
+    @media only screen and (min-width: 760px) { .bg-cover { background-image: none!important;}}
+</style>
+<video id="index-video" autoplay loop muted>
+
+    <source src="https://txmov2.a.yximgs.com/upic/2021/04/09/22/BMjAyMTA0MDkyMjMwMDhfMTg1ODk2MDg4N180NzUyOTMyMjA4Nl8xXzM=_b_B8e080d7ede19e6674d48a9f12545007b.mp4?pkey=AAVAfNhi5_f-HGkIPXrY5w6nyf4JibwOY-WwdHgSJ2aSoi-2WQLpiYDunLbRZQuESz875eMdsepRlVFtXg9nuQY58uRc-7AsF0kEMNR6QYBj56g9JFFMSGdsoKK2-SV27u8&amp;tag=1-1617978682-xpcwebprofile-0-lcvipceuti-9e40072f87531f1a&amp;clientCacheKey=3xbbtbrfxqpccp4_b.mp4">
+
+    <source src="https://txmov2.a.yximgs.com/upic/2021/04/09/21/BMjAyMTA0MDkyMTQyNDRfMTg1ODk2MDg4N180NzUyNjAyMzA0N18xXzM=_b_B83b004b85aba8eca3ded270637616575.mp4">
+
+    <source src="https://txmov2.a.yximgs.com/upic/2021/04/09/21/BMjAyMTA0MDkyMTU4MDNfMTg1ODk2MDg4N180NzUyNzE0MzkyNV8xXzM=_b_Bf94cee6bd181efeaca64049bd2e4e276.mp4">
+
+</video>
+
 <main class="content">
 
-    <div id="aboutme" class="container about-container">
-        <div class="card">
-            <div class="card-content">
-                <div class="row">
-                    <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
-                        
-<div class="statis">
-    <span class="count"><a href="/">21</a></span>
-    <span class="name">文章</span>
-</div>
+    
 
+    
 
-
-
-
-
-                    </div>
-                    <div class="col s12 m12 l4">
-                        <div class="profile center-align">
-                            <div class="avatar">
-                                <img src="/medias/avatar.jpg" alt="John Doe"
-                                     class="circle responsive-img avatar-img">
-                            </div>
-                            <div class="author">
-                                <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
-                                    
-<div class="statis">
-    <span class="count"><a href="/">21</a></span>
-    <span class="name">文章</span>
-</div>
-
-
-
-
-
-
-                                </div>
-                                <div class="title">John Doe</div>
-                                <div class="career">南通大学大二学生</div>
-                                <div class="social-link hide-on-large-only" data-aos="zoom-in-left">
-                                    
-    <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
-        <i class="fab fa-github"></i>
-    </a>
-
-
-
-    <a href="mailto:yvyueniao@Foxmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fas fa-envelope-open"></i>
-    </a>
-
-
-
-
-
-
-
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1330362357" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1330362357" data-position="top" data-delay="50">
-        <i class="fab fa-qq"></i>
-    </a>
-
-
-
-
-
-
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
-    </a>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col l4 hide-on-med-and-down" data-aos="zoom-in-left">
-                        <div class="social-link">
+    <!-- 所有文章卡片 -->
+    <article id="articles" class="container articles">
+        <div class="row article-row">
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2023/08/31/%E3%80%90%E5%85%9A%E6%97%97%E5%BC%95%E9%A2%86%E2%80%A2%E5%A5%8B%E6%A5%AB%E6%89%AC%E5%B8%86%E3%80%91%E5%9F%BA%E5%B1%82%E5%85%9A%E5%BB%BA%E5%B7%A5%E4%BD%9C%E5%B7%A1%E7%A4%BC%EF%BC%9A%E6%9D%8F%E6%9E%97%E5%AD%A6%E9%99%A2%EF%BC%88%E5%90%AF%E4%B8%9C%E6%A0%A1%E5%8C%BA%E7%AE%A1%E5%A7%94%E4%BC%9A%EF%BC%89%E5%85%9A%E5%A7%94%20-%20%E5%89%AF%E6%9C%AC/">
+                        <div class="card-image">
                             
-    <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
-        <i class="fab fa-github"></i>
-    </a>
+                            
+                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                            
+                            <span class="card-title"></span>
+                        </div>
+                    </a>
 
-
-
-    <a href="mailto:yvyueniao@Foxmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fas fa-envelope-open"></i>
-    </a>
-
-
-
-
-
-
-
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1330362357" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1330362357" data-position="top" data-delay="50">
-        <i class="fab fa-qq"></i>
-    </a>
-
-
-
-
-
-
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
-    </a>
-
-
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+【党旗引领•奋楫扬帆】基层党建工作巡礼：杏林学院（启东校区管委会）党委打造融合共进新载体  “党建+”凝聚合力促发展
+杏林学院与启东高新区开展“党建联盟聚合力，校地共建促发展”党建共建
+校第三次党代会以来，杏林学院（启东校区管委会）党委围
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-08-31
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                John Doe
+                                
+                            </span>
                         </div>
                     </div>
+
+                    
                 </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2023/08/31/%E3%80%8A%E6%B1%9F%E8%8B%8F%E6%95%99%E8%82%B2%E6%8A%A5%E3%80%8B%E5%85%B3%E6%B3%A8%E6%88%91%E6%A0%A1%E2%80%9C%E4%BA%91%E4%B9%8B%E9%9D%92%E2%80%9D%E6%9C%AC%E7%A1%95%E7%A7%91%E6%99%AE%E5%AE%A3%E8%AE%B2%E5%9B%A2%20-%20%E5%89%AF%E6%9C%AC/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                            
+                            <span class="card-title"></span>
+                        </div>
+                    </a>
 
-                <div class="introduction center-align" data-aos="fade-up">好好学习，天天向上</div>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+《江苏教育报》关注我校“云之青”本硕科普宣讲团7月26日出版的《江苏教育报》以《“云”知共振兴 “青”行述山河》为题，关注我校“云之青”本硕科普宣讲团开展志愿服务活动。
+据报道，从7月1日起，我校“云之青”本硕科普宣讲团成员围绕“感井冈山
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-08-31
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                John Doe
+                                
+                            </span>
+                        </div>
+                    </div>
 
-                <style type="text/css">
-    #posts-chart,
-    #categories-chart,
-    #tags-chart {
-        width: 100%;
-        height: 300px;
-        margin: 0.5rem auto;
-        padding: 0.5rem;
-    }
-</style>
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2023/08/31/%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2%E9%83%91%E5%86%9B%E5%BC%BA%E5%8D%9A%E5%A3%AB%E5%9C%A8%E5%9B%BD%E9%99%85%E8%91%97%E5%90%8D%E5%AD%A6%E6%9C%AF%E6%9C%9F%E5%88%8A%E3%80%8A%E5%B7%A5%E4%B8%9A%E7%94%B5%E5%AD%90%E5%AD%A6%E6%B1%87%E5%88%8A%E3%80%8B%E4%B8%8A%E5%8F%91%E8%A1%A8%E8%AE%BA%E6%96%87/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                            
+                            <span class="card-title"></span>
+                        </div>
+                    </a>
 
-<div id="postCharts" class="post-charts">
-    <div class="title center-align" data-aos="zoom-in-up">
-        <i class="far fa-bar-chart"></i>&nbsp;&nbsp;文章统计图
-    </div>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+电气工程学院郑军强博士在国际著名学术期刊《工业电子学汇刊》上发表论文近日，电气工程学院郑军强博士以南通大学为第一单位，在国际著名学术期刊《IEEE Transactions on Industrial Electronics》（《工业电子
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-08-31
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                John Doe
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2023/08/31/%E3%80%90%E5%85%9A%E6%97%97%E5%BC%95%E9%A2%86%E2%80%A2%E5%A5%8B%E6%A5%AB%E6%89%AC%E5%B8%86%E3%80%91%E5%9F%BA%E5%B1%82%E5%85%9A%E5%BB%BA%E5%B7%A5%E4%BD%9C%E5%B7%A1%E7%A4%BC%EF%BC%9A%E6%9D%8F%E6%9E%97%E5%AD%A6%E9%99%A2%EF%BC%88%E5%90%AF%E4%B8%9C%E6%A0%A1%E5%8C%BA%E7%AE%A1%E5%A7%94%E4%BC%9A%EF%BC%89%E5%85%9A%E5%A7%94/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                            
+                            <span class="card-title"></span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+【党旗引领•奋楫扬帆】基层党建工作巡礼：杏林学院（启东校区管委会）党委打造融合共进新载体  “党建+”凝聚合力促发展
+杏林学院与启东高新区开展“党建联盟聚合力，校地共建促发展”党建共建
+校第三次党代会以来，杏林学院（启东校区管委会）党委围
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-08-31
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                John Doe
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2023/08/31/%E6%88%91%E6%A0%A1%E5%AD%A6%E5%AD%90%E8%8D%A3%E8%8E%B7%E7%AC%AC%E4%B9%9D%E5%B1%8A%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%9F%BA%E7%A1%80%E5%8C%BB%E5%AD%A6%E5%88%9B%E6%96%B0%E7%A0%94%E7%A9%B6%E6%9A%A8%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1%E8%AE%BA%E5%9D%9B%E6%80%BB%E5%86%B3%E8%B5%9B%E9%87%91%E5%A5%96/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                            
+                            <span class="card-title"></span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+我校学子荣获第九届全国大学生基础医学创新研究暨实验设计论坛总决赛金奖8月25日-28日，第九届全国大学生基础医学创新研究暨实验设计论坛总决赛在重庆举行，我校参赛项目《快速病理诊断和肿瘤分级鉴定的新型荧光探针在临床术中的应用》（学生：甄亚亚
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-08-31
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                John Doe
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2023/08/31/%E3%80%8A%E6%B1%9F%E8%8B%8F%E6%95%99%E8%82%B2%E6%8A%A5%E3%80%8B%E5%85%B3%E6%B3%A8%E6%88%91%E6%A0%A1%E2%80%9C%E4%BA%91%E4%B9%8B%E9%9D%92%E2%80%9D%E6%9C%AC%E7%A1%95%E7%A7%91%E6%99%AE%E5%AE%A3%E8%AE%B2%E5%9B%A2/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                            
+                            <span class="card-title"></span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+《江苏教育报》关注我校“云之青”本硕科普宣讲团7月26日出版的《江苏教育报》以《“云”知共振兴 “青”行述山河》为题，关注我校“云之青”本硕科普宣讲团开展志愿服务活动。
+据报道，从7月1日起，我校“云之青”本硕科普宣讲团成员围绕“感井冈山
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-08-31
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                John Doe
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2023/08/31/%E6%97%A5%E6%9C%AC%E4%B8%8E%E9%9F%A9%E5%9B%BD%E9%AB%98%E6%A0%A1%E6%95%99%E6%8E%88%E4%BB%A3%E8%A1%A8%E5%9B%A2%E8%AE%BF%E9%97%AE%E6%88%91%E6%A0%A1/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                            
+                            <span class="card-title"></span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+日本与韩国高校教授代表团访问我校8月31日，日本信州大学、韩国浦项科技大学、韩国高丽大学、韩国建国大学等六所大学组成的教授代表团一行10人访问我校。副校长陈玉娟会见了来宾。
+陈玉娟代表学校对来宾的到访表示欢迎，并向来宾介绍了南通市和我校的
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-08-31
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                John Doe
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2023/08/31/%E5%8D%97%E9%80%9A%E5%A4%A7%E5%AD%A6/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                            
+                            <span class="card-title"></span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+南通大学南通大学（NantongUniversity）始建于1912年，源自近代著名实业家、教育家张謇先生创办的私立南通医学专门学校和南通纺织专门学校。2004年，原南通医学院、南通工学院、南通师范学院三校合并组建新的南通大学。学校是江苏
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-08-31
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                John Doe
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2023/08/31/hello-world/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                            
+                            <span class="card-title">Hello World</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-08-31
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                John Doe
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+        </div>
+    </article>
+
+</main>
+
+
+<div class="container paging">
     <div class="row">
-        <div class="chart col s12 m6 l4" data-aos="zoom-in-up">
-            <div id="posts-chart"></div>
+        <div class="col s6 m4 l4">
+            
+            <a href="/"
+               class="left btn-floating btn-large waves-effect waves-light bg-color">
+                <i class="fas fa-angle-left"></i>
+            </a>
+            
         </div>
-
-        <div class="chart col s12 m6 l4" data-aos="zoom-in-up">
-            <div id="categories-chart"></div>
+        <div class="page-info col m4 l4 hide-on-small-only">
+            <div class="center-align b-text-gray">2 / 2</div>
         </div>
-
-        <div class="chart col s12 m6 l4" data-aos="zoom-in-up">
-            <div id="tags-chart"></div>
-        </div>
-    </div>
-</div>
-
-<script type="text/javascript" src="/libs/echarts/echarts.min.js"></script>
-<script>
-    let postsChart = echarts.init(document.getElementById('posts-chart'));
-    let categoriesChart = echarts.init(document.getElementById('categories-chart'));
-    let tagsChart = echarts.init(document.getElementById('tags-chart'));
-
-    
-
-    let postsOption = {
-        title: {
-            text: '文章发布统计图',
-            top: -5,
-            x: 'center'
-        },
-        tooltip: {
-            trigger: 'axis'
-        },
-        xAxis: {
-            type: 'category',
-            data: ["2022-08","2022-09","2022-10","2022-11","2022-12","2023-01","2023-02","2023-03","2023-04","2023-05","2023-06","2023-07","2023-08"]
-        },
-        yAxis: {
-            type: 'value',
-        },
-        series: [
-            {
-                name: '文章篇数',
-                type: 'line',
-                color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,21],
-                markPoint: {
-                    symbolSize: 45,
-                    color: ['#fa755a','#3ecf8e','#82d3f4'],
-                    data: [{
-                        type: 'max',
-                        itemStyle: {color: ['#3ecf8e']},
-                        name: '最大值'
-                    }, {
-                        type: 'min',
-                        itemStyle: {color: ['#fa755a']},
-                        name: '最小值'
-                    }]
-                },
-                markLine: {
-                    itemStyle: {color: ['#ab47bc']},
-                    data: [
-                        {type: 'average', name: '平均值'}
-                    ]
-                }
-            }
-        ]
-    };
-
-    
-
-    let categoriesOption = {
-        title: {
-            text: '文章分类统计图',
-            top: -4,
-            x: 'center'
-        },
-        tooltip: {
-            trigger: 'item',
-            formatter: "{a} <br/>{b} : {c} ({d}%)"
-        },
-        series: [
-            {
-                name: '分类',
-                type: 'pie',
-                radius: '50%',
-                color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [],
-                itemStyle: {
-                    emphasis: {
-                        shadowBlur: 10,
-                        shadowOffsetX: 0,
-                        shadowColor: 'rgba(0, 0, 0, 0.5)'
-                    }
-                }
-            }
-        ]
-    };
-
-    
-
-    let tagsOption = {
-        title: {
-            text: 'TOP10 标签统计图',
-            top: -5,
-            x: 'center'
-        },
-        tooltip: {},
-        xAxis: [
-            {
-                type: 'category',
-                data: []
-            }
-        ],
-        yAxis: [
-            {
-                type: 'value'
-            }
-        ],
-        series: [
-            {
-                type: 'bar',
-                color: ['#82d3f4'],
-                barWidth : 18,
-                data: [],
-                markPoint: {
-                    symbolSize: 45,
-                    data: [{
-                        type: 'max',
-                        itemStyle: {color: ['#3ecf8e']},
-                        name: '最大值'
-                    }, {
-                        type: 'min',
-                        itemStyle: {color: ['#fa755a']},
-                        name: '最小值'
-                    }],
-                },
-                markLine: {
-                    itemStyle: {color: ['#ab47bc']},
-                    data: [
-                        {type: 'average', name: '平均值'}
-                    ]
-                }
-            }
-        ]
-    };
-
-    // render the charts
-    postsChart.setOption(postsOption);
-    categoriesChart.setOption(categoriesOption);
-    tagsChart.setOption(tagsOption);
-</script>
-
-
-                
-
-                
-                
-<div class="my-skills">
-    <div class="title center-align" data-aos="zoom-in-up">
-        <i class="fas fa-wrench"></i>&nbsp;&nbsp;我的技能
-    </div>
-    <div class="row">
-        
-        
-        
-        <div class="col s12 m6 l6" data-aos="fade-up">
-            <div class="skillbar">
-                <div class="skillbar-title"
-                     style="background: linear-gradient(to right, #FF0066 0%, #FF00CC 100%); width: 85%">
-                    <span>Java</span>
-                </div>
-                <div class="skill-bar-percent">85%</div>
-            </div>
-        </div>
-        
-        
-        <div class="col s12 m6 l6" data-aos="fade-up">
-            <div class="skillbar">
-                <div class="skillbar-title"
-                     style="background: linear-gradient(to right, #9900FF 0%, #CC66FF 100%); width: 80%">
-                    <span>JavaScript</span>
-                </div>
-                <div class="skill-bar-percent">80%</div>
-            </div>
-        </div>
-        
-        
-        <div class="col s12 m6 l6" data-aos="fade-up">
-            <div class="skillbar">
-                <div class="skillbar-title"
-                     style="background: linear-gradient(to right, #2196F3 0%, #42A5F5 100%); width: 80%">
-                    <span>HTML5</span>
-                </div>
-                <div class="skill-bar-percent">80%</div>
-            </div>
-        </div>
-        
-        
-        <div class="col s12 m6 l6" data-aos="fade-up">
-            <div class="skillbar">
-                <div class="skillbar-title"
-                     style="background: linear-gradient(to right, #00BCD4 0%, #80DEEA 100%); width: 70%">
-                    <span>CSS</span>
-                </div>
-                <div class="skill-bar-percent">70%</div>
-            </div>
-        </div>
-        
-        
-        <div class="col s12 m6 l6" data-aos="fade-up">
-            <div class="skillbar">
-                <div class="skillbar-title"
-                     style="background: linear-gradient(to right, #4CAF50 0%, #81C784 100%); width: 90%">
-                    <span>SQL</span>
-                </div>
-                <div class="skill-bar-percent">90%</div>
-            </div>
-        </div>
-        
-        
-        <div class="col s12 m6 l6" data-aos="fade-up">
-            <div class="skillbar">
-                <div class="skillbar-title"
-                     style="background: linear-gradient(to right, #FFEB3B 0%, #FFF176 100%); width: 75%">
-                    <span>程序设计</span>
-                </div>
-                <div class="skill-bar-percent">75%</div>
-            </div>
-        </div>
-        
-        
-    </div>
-
-    
-
-    
-    <div class="other-skills chip-container" data-aos="zoom-in-up">
-        <div class="sub-title center-align"><i class="fa fa-book"></i>&nbsp;&nbsp;其他技能</div>
-        <div class="tag-chips center-align">
+        <div class="col s6 m4 l4">
+            
+            <a class="right btn-floating btn-large disabled">
+                <i class="fas fa-angle-right"></i>
+            </a>
             
         </div>
     </div>
-    
-
 </div>
 
-                
 
-                
-                
-                
-                
-            </div>
-        </div>
-    </div>
-</main>
 
 
     <footer class="page-footer bg-color">
